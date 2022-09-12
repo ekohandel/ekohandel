@@ -26,11 +26,18 @@ domain: "abekohandel.com"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.abekohandel.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ekohandel
+disqus:
+  shortname: "www-abekohandel-com"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-toc
+  - jekyll-asciinema
+
+header_pages:
+  - about.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
